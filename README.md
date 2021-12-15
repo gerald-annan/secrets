@@ -150,6 +150,10 @@ combined.(6)
 
 ## Source
 
+### Solved by
+
+- @gerald-annan
+
 ### Created by
 
 - @neenjaw
