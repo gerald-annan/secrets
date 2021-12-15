@@ -14,14 +14,14 @@ defmodule Secrets do
     fn x -> x * secret end
   end
 
-  def secret_divide(secret) do
-    # Please implement the secret_divide/1 function
-    fn x -> trunc(x / secret) end
-  end
-
   def secret_and(secret) do
     # Please implement the secret_and/1 function
     fn x -> Bitwise.&&&(x, secret) end
+  end
+
+  def secret_divide(secret) do
+    # Please implement the secret_divide/1 function
+    fn x -> trunc(x / secret) end
   end
 
   def secret_xor(secret) do
